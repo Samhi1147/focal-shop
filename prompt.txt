@@ -1,0 +1,22 @@
+PROMPT USED FOR BUILDING THE PROJECT
+
+
+You are an expert full-stack web developer. Your task is to build a complete E-Commerce Website that allows users to explore products, view product details, add or remove items from a shopping cart, and view their total cart value. The website should have a clean, responsive, and lightweight user interface with basic state management to handle cart operations smoothly.
+
+For the frontend, use React.js or Next.js. Implement navigation using React Router to manage pages such as Home, Products, and Cart. The interface should be modern, minimal, and fully responsive on both desktop and mobile screens. Use Tailwind CSS or plain CSS for styling to keep the layout simple and visually appealing.
+
+For the backend, use Node.js with Express.js to handle APIs for products and cart data. Optionally, you may use Python with Flask or FastAPI as an alternative backend implementation. The backend should provide APIs for fetching a list of products, retrieving product details, and performing basic cart operations such as adding or removing items.
+
+Use MongoDB Atlas as the database to store product information (name, price, description, and image URLs). If a live database connection isn’t available, use a mock JSON file for testing and integration. Make sure to use async/await for API calls and handle all responses cleanly in the frontend.
+
+The website should include three main pages:
+
+A homepage displaying a list of products fetched from the backend.
+
+A product details page that shows full product information.
+
+A cart page that lists all selected products, allows users to remove items, and shows the total amount dynamically.
+
+Ensure that the state management for the cart is implemented using React’s Context API, Redux, or simple component state. Keep the folder structure organized — separate frontend and backend clearly, and maintain modular, well-commented code. The goal is to build a functional, professional-looking e-commerce site that can easily be extended later with features like login, checkout, or payments.
+
+Finally, include helpful inline comments or a short setup guide so that anyone running the code can easily understand how to start the backend, connect to MongoDB, and run the React frontend.
